@@ -1,0 +1,150 @@
+runfile('/home/xyzhou/extDisk2t/_AAAI22/QtPreserveRob/advToolboxSvhnUAP1batch.py', wdir='/home/xyzhou/extDisk2t/_AAAI22/QtPreserveRob')
+Using downloaded and verified file: ./data/svhn/train_32x32.mat
+Using downloaded and verified file: ./data/svhn/test_32x32.mat
+Eval Adv Res20 SVHN Model.
+Accuracy on benign test examples: 87.96000000000001%
+Accuracy on benign test examples: 86.65%
+Accuracy on benign test examples: 88.12%
+Accuracy on benign test examples: 87.91%
+Universal perturbation: 0it [00:00, ?it/s]Accuracy on benign test examples: 87.9%
+Generating adv on N=10000tr data samples.
+Number of Predictors Attacked:  5
+Total number of attack Iter: 10
+nb_iter: 0
+Universal perturbation: 1it [20:24, 1224.00s/it]nb_iter: 1
+Universal perturbation: 2it [53:54, 1686.40s/it]nb_iter: 2
+Universal perturbation: 3it [1:27:23, 1833.76s/it]nb_iter: 3
+Universal perturbation: 4it [2:01:00, 1906.39s/it]nb_iter: 4
+Universal perturbation: 5it [2:34:33, 1944.75s/it]nb_iter: 5
+Universal perturbation: 6it [3:08:01, 1966.13s/it]nb_iter: 6
+Universal perturbation: 7it [3:41:29, 1979.79s/it]nb_iter: 7
+Universal perturbation: 8it [4:14:55, 1988.33s/it]nb_iter: 8
+Universal perturbation: 9it [4:48:20, 1993.57s/it]nb_iter: 9
+Universal perturbation: 10it [5:34:55, 2009.54s/it]
+QModel_W32A32 Accuracy on first N adv examples: 12.64%
+QModel_W5A5 Accuracy on first N adv examples: 12.67%
+QModel_W6A6 Accuracy on first N adv examples: 12.72%
+QModel_W7A7 Accuracy on first N adv examples: 12.67%
+Universal perturbation: 0it [00:00, ?it/s]QModel_W8A8 Accuracy on first N adv examples: 12.68%
+Generating adv on N=10000tr data samples.
+Number of Predictors Attacked:  5
+Total number of attack Iter: 10
+nb_iter: 0
+Universal perturbation: 1it [20:15, 1215.12s/it]nb_iter: 1
+Universal perturbation: 2it [53:42, 1681.44s/it]nb_iter: 2
+Universal perturbation: 3it [1:27:11, 1830.65s/it]nb_iter: 3
+Universal perturbation: 4it [2:00:38, 1900.40s/it]nb_iter: 4
+Universal perturbation: 5it [2:34:30, 1947.69s/it]nb_iter: 5
+Universal perturbation: 6it [3:08:29, 1978.82s/it]nb_iter: 6
+Universal perturbation: 7it [3:42:55, 2007.42s/it]nb_iter: 7
+Universal perturbation: 8it [4:16:53, 2016.96s/it]nb_iter: 8
+Universal perturbation: 9it [4:50:27, 2016.23s/it]nb_iter: 9
+Universal perturbation: 10it [5:37:12, 2023.21s/it]
+QModel_W32A32 Accuracy on first N adv examples: 12.659999999999998%
+QModel_W5A5 Accuracy on first N adv examples: 12.8%
+QModel_W6A6 Accuracy on first N adv examples: 12.68%
+QModel_W7A7 Accuracy on first N adv examples: 12.620000000000001%
+Universal perturbation: 0it [00:00, ?it/s]QModel_W8A8 Accuracy on first N adv examples: 12.7%
+Generating adv on N=10000tr data samples.
+Number of Predictors Attacked:  5
+Total number of attack Iter: 10
+nb_iter: 0
+Universal perturbation: 1it [21:05, 1265.04s/it]nb_iter: 1
+Universal perturbation: 2it [55:02, 1719.59s/it]nb_iter: 2
+Universal perturbation: 3it [1:28:37, 1854.35s/it]nb_iter: 3
+Universal perturbation: 4it [2:02:02, 1913.70s/it]nb_iter: 4
+Universal perturbation: 5it [2:35:24, 1945.77s/it]nb_iter: 5
+Universal perturbation: 6it [3:08:46, 1964.74s/it]nb_iter: 6
+Universal perturbation: 7it [3:42:13, 1978.69s/it]nb_iter: 7
+Universal perturbation: 8it [4:15:38, 1987.09s/it]nb_iter: 8
+Universal perturbation: 9it [4:49:16, 1996.67s/it]nb_iter: 9
+Universal perturbation: 10it [5:35:52, 2015.26s/it]
+QModel_W32A32 Accuracy on first N adv examples: 12.85%
+QModel_W5A5 Accuracy on first N adv examples: 12.920000000000002%
+QModel_W6A6 Accuracy on first N adv examples: 12.9%
+QModel_W7A7 Accuracy on first N adv examples: 12.75%
+Universal perturbation: 0it [00:00, ?it/s]QModel_W8A8 Accuracy on first N adv examples: 12.809999999999999%
+Generating adv on N=10000tr data samples.
+Number of Predictors Attacked:  5
+Total number of attack Iter: 10
+nb_iter: 0
+Universal perturbation: 1it [20:21, 1221.65s/it]nb_iter: 1
+Universal perturbation: 2it [53:46, 1682.34s/it]nb_iter: 2
+Universal perturbation: 3it [1:27:11, 1829.75s/it]nb_iter: 3
+Universal perturbation: 4it [2:01:07, 1911.15s/it]nb_iter: 4
+Universal perturbation: 5it [2:34:44, 1949.31s/it]nb_iter: 5
+Universal perturbation: 6it [3:08:52, 1982.93s/it]nb_iter: 6
+Universal perturbation: 7it [3:42:29, 1993.91s/it]nb_iter: 7
+Universal perturbation: 8it [4:15:55, 1997.81s/it]nb_iter: 8
+Universal perturbation: 9it [4:49:32, 2003.87s/it]nb_iter: 9
+Universal perturbation: 10it [5:37:17, 2023.77s/it]
+QModel_W32A32 Accuracy on first N adv examples: 13.170000000000002%
+QModel_W5A5 Accuracy on first N adv examples: 13.33%
+QModel_W6A6 Accuracy on first N adv examples: 13.469999999999999%
+QModel_W7A7 Accuracy on first N adv examples: 12.97%
+Universal perturbation: 0it [00:00, ?it/s]QModel_W8A8 Accuracy on first N adv examples: 13.100000000000001%
+Generating adv on N=10000tr data samples.
+Number of Predictors Attacked:  5
+Total number of attack Iter: 10
+nb_iter: 0
+Universal perturbation: 1it [20:52, 1252.18s/it]nb_iter: 1
+Universal perturbation: 2it [56:58, 1789.83s/it]nb_iter: 2
+Universal perturbation: 3it [1:31:07, 1908.46s/it]nb_iter: 3
+Universal perturbation: 4it [2:04:32, 1946.42s/it]nb_iter: 4
+Universal perturbation: 5it [2:37:49, 1964.70s/it]nb_iter: 5
+Universal perturbation: 6it [3:11:12, 1977.61s/it]nb_iter: 6
+Universal perturbation: 7it [3:44:52, 1991.66s/it]nb_iter: 7
+Universal perturbation: 8it [4:18:16, 1995.48s/it]nb_iter: 8
+Universal perturbation: 9it [4:51:49, 2000.84s/it]nb_iter: 9
+Universal perturbation: 10it [5:38:44, 2032.47s/it]
+QModel_W32A32 Accuracy on first N adv examples: 13.209999999999999%
+QModel_W5A5 Accuracy on first N adv examples: 13.719999999999999%
+QModel_W6A6 Accuracy on first N adv examples: 13.29%
+QModel_W7A7 Accuracy on first N adv examples: 13.18%
+Universal perturbation: 0it [00:00, ?it/s]QModel_W8A8 Accuracy on first N adv examples: 13.15%
+Generating adv on N=10000tr data samples.
+Number of Predictors Attacked:  5
+Total number of attack Iter: 10
+nb_iter: 0
+Universal perturbation: 1it [20:26, 1226.90s/it]nb_iter: 1
+Universal perturbation: 2it [53:43, 1679.93s/it]nb_iter: 2
+Universal perturbation: 3it [1:27:04, 1826.16s/it]nb_iter: 3
+Universal perturbation: 4it [2:00:19, 1893.05s/it]nb_iter: 4
+Universal perturbation: 5it [2:33:46, 1934.07s/it]nb_iter: 5
+Universal perturbation: 6it [3:06:57, 1953.30s/it]nb_iter: 6
+Universal perturbation: 7it [3:40:31, 1973.26s/it]nb_iter: 7
+Universal perturbation: 8it [4:13:51, 1981.78s/it]nb_iter: 8
+Universal perturbation: 9it [4:47:17, 1989.27s/it]nb_iter: 9
+Universal perturbation: 10it [5:33:46, 2002.68s/it]
+QModel_W32A32 Accuracy on first N adv examples: 11.75%
+QModel_W5A5 Accuracy on first N adv examples: 12.76%
+QModel_W6A6 Accuracy on first N adv examples: 12.09%
+QModel_W7A7 Accuracy on first N adv examples: 11.690000000000001%
+QModel_W8A8 Accuracy on first N adv examples: 11.82%
+Results on more test data:
+QModel_W32A32 Accuracy on adv examples: 68.32000000000001%
+QModel_W5A5 Accuracy on adv examples: 55.53%
+QModel_W6A6 Accuracy on adv examples: 69.21000000000001%
+QModel_W7A7 Accuracy on adv examples: 67.84%
+QModel_W8A8 Accuracy on adv examples: 68.37%
+
+
+runcell('Test UAPs on Nat Model', '/home/xyzhou/extDisk2t/_AAAI22/QtPreserveRob/advToolboxSvhnUAP1batch.py')
+Eval adv on N=10000 tst data samples of advEps=4/255
+advEps:4/255
+Nat Accuracy on Adv: 92.62%
+Eval adv on N=10000 tst data samples of advEps=8/255
+advEps:8/255
+Nat Accuracy on Adv: 88.61%
+Eval adv on N=10000 tst data samples of advEps=12/255
+advEps:12/255
+Nat Accuracy on Adv: 82.39999999999999%
+Eval adv on N=10000 tst data samples of advEps=16/255
+advEps:16/255
+Nat Accuracy on Adv: 84.00999999999999%
+Eval adv on N=10000 tst data samples of advEps=26/255
+advEps:26/255
+Nat Accuracy on Adv: 72.61%
+Eval adv on N=10000 tst data samples of advEps=32/255
+advEps:32/255
+Nat Accuracy on Adv: 51.67%

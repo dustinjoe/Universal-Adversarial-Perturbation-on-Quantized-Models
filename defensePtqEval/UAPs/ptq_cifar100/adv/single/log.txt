@@ -1,0 +1,107 @@
+===================================================
+tr
+================================================
+runfile('/home/xyzhou/extDisk2t/_AAAI22/QtPreserveRob/advToolboxCifar100UAP1batch.py', wdir='/home/xyzhou/extDisk2t/_AAAI22/QtPreserveRob')
+Files already downloaded and verified
+Eval Adv Training Cifar100 WRN34 Model.
+Universal perturbation: 0it [00:00, ?it/s]Accuracy on benign test examples: 69.15%
+Generating adv on N=10000tr data samples.
+Number of Predictors Attacked:  1
+Total number of attack Iter: 10
+nb_iter: 0
+Universal perturbation: 1it [06:39, 399.52s/it]nb_iter: 1
+Universal perturbation: 2it [19:50, 629.65s/it]nb_iter: 2
+Universal perturbation: 3it [32:50, 698.31s/it]nb_iter: 3
+Universal perturbation: 4it [45:54, 732.32s/it]nb_iter: 4
+Universal perturbation: 5it [58:42, 745.13s/it]nb_iter: 5
+Universal perturbation: 6it [1:11:30, 752.99s/it]nb_iter: 6
+Universal perturbation: 7it [1:24:20, 758.42s/it]nb_iter: 7
+Universal perturbation: 8it [1:37:07, 761.08s/it]nb_iter: 8
+Universal perturbation: 9it [1:49:52, 762.35s/it]nb_iter: 9
+Universal perturbation: 10it [2:08:40, 772.09s/it]
+Universal perturbation: 0it [00:00, ?it/s]QModel_W32A32 Accuracy on first N adv examples: 0.95%
+Generating adv on N=10000tr data samples.
+Number of Predictors Attacked:  1
+Total number of attack Iter: 10
+nb_iter: 0
+Universal perturbation: 1it [06:41, 401.53s/it]nb_iter: 1
+Universal perturbation: 2it [19:27, 615.83s/it]nb_iter: 2
+Universal perturbation: 3it [32:12, 683.93s/it]nb_iter: 3
+Universal perturbation: 4it [44:57, 715.98s/it]nb_iter: 4
+Universal perturbation: 5it [57:41, 733.40s/it]nb_iter: 5
+Universal perturbation: 6it [1:10:26, 744.18s/it]nb_iter: 6
+Universal perturbation: 7it [1:23:12, 751.05s/it]nb_iter: 7
+Universal perturbation: 8it [1:35:57, 755.59s/it]nb_iter: 8
+Universal perturbation: 9it [1:48:42, 758.70s/it]nb_iter: 9
+Universal perturbation: 10it [2:07:35, 765.59s/it]
+Universal perturbation: 0it [00:00, ?it/s]QModel_W32A32 Accuracy on first N adv examples: 0.96%
+Generating adv on N=10000tr data samples.
+Number of Predictors Attacked:  1
+Total number of attack Iter: 10
+nb_iter: 0
+Universal perturbation: 1it [06:41, 401.03s/it]nb_iter: 1
+Universal perturbation: 2it [19:28, 616.30s/it]nb_iter: 2
+Universal perturbation: 3it [32:13, 684.24s/it]nb_iter: 3
+Universal perturbation: 4it [44:57, 715.91s/it]nb_iter: 4
+Universal perturbation: 5it [57:40, 732.99s/it]nb_iter: 5
+Universal perturbation: 6it [1:10:25, 743.68s/it]nb_iter: 6
+Universal perturbation: 7it [1:23:09, 750.33s/it]nb_iter: 7
+Universal perturbation: 8it [1:35:54, 754.91s/it]nb_iter: 8
+Universal perturbation: 9it [1:48:38, 757.77s/it]nb_iter: 9
+Universal perturbation: 10it [2:07:25, 764.50s/it]
+Universal perturbation: 0it [00:00, ?it/s]QModel_W32A32 Accuracy on first N adv examples: 0.95%
+Generating adv on N=10000tr data samples.
+Number of Predictors Attacked:  1
+Total number of attack Iter: 10
+nb_iter: 0
+Universal perturbation: 1it [06:40, 400.53s/it]nb_iter: 1
+Universal perturbation: 2it [19:24, 614.46s/it]nb_iter: 2
+Universal perturbation: 3it [32:08, 682.68s/it]nb_iter: 3
+Universal perturbation: 4it [44:51, 714.54s/it]nb_iter: 4
+Universal perturbation: 5it [57:34, 731.80s/it]nb_iter: 5
+Universal perturbation: 6it [1:10:17, 742.57s/it]nb_iter: 6
+Universal perturbation: 7it [1:23:01, 749.51s/it]nb_iter: 7
+Universal perturbation: 8it [1:35:45, 753.96s/it]nb_iter: 8
+Universal perturbation: 9it [1:48:28, 757.03s/it]nb_iter: 9
+Universal perturbation: 10it [2:07:14, 763.50s/it]
+Universal perturbation: 0it [00:00, ?it/s]QModel_W32A32 Accuracy on first N adv examples: 0.9299999999999999%
+Generating adv on N=10000tr data samples.
+Number of Predictors Attacked:  1
+Total number of attack Iter: 10
+nb_iter: 0
+Universal perturbation: 1it [06:40, 400.44s/it]nb_iter: 1
+Universal perturbation: 2it [19:22, 613.42s/it]nb_iter: 2
+Universal perturbation: 3it [32:06, 681.93s/it]nb_iter: 3
+Universal perturbation: 4it [44:48, 713.54s/it]nb_iter: 4
+Universal perturbation: 5it [57:31, 731.36s/it]nb_iter: 5
+Universal perturbation: 6it [1:10:14, 742.29s/it]nb_iter: 6
+Universal perturbation: 7it [1:22:58, 749.28s/it]nb_iter: 7
+Universal perturbation: 8it [1:35:43, 754.20s/it]nb_iter: 8
+Universal perturbation: 9it [1:48:27, 757.48s/it]nb_iter: 9
+Universal perturbation: 10it [2:07:15, 763.60s/it]
+Universal perturbation: 0it [00:00, ?it/s]QModel_W32A32 Accuracy on first N adv examples: 0.97%
+Generating adv on N=10000tr data samples.
+Number of Predictors Attacked:  1
+Total number of attack Iter: 10
+nb_iter: 0
+Universal perturbation: 1it [06:41, 401.22s/it]nb_iter: 1
+Universal perturbation: 2it [19:24, 614.05s/it]nb_iter: 2
+Universal perturbation: 3it [32:08, 682.79s/it]nb_iter: 3
+Universal perturbation: 4it [44:54, 715.58s/it]nb_iter: 4
+Universal perturbation: 5it [57:40, 733.72s/it]nb_iter: 5
+Universal perturbation: 6it [1:10:23, 743.70s/it]nb_iter: 6
+Universal perturbation: 7it [1:23:11, 751.56s/it]nb_iter: 7
+Universal perturbation: 8it [1:35:55, 755.58s/it]nb_iter: 8
+Universal perturbation: 9it [1:48:39, 758.27s/it]nb_iter: 9
+Universal perturbation: 10it [2:07:25, 764.57s/it]
+QModel_W32A32 Accuracy on first N adv examples: 1.11%
+Results on more test data:
+QModel_W32A32 Accuracy on adv examples: 44.04%
+
+
+
+================================================================
+tst
+====================================================
+
+

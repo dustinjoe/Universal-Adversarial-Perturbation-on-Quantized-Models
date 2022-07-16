@@ -1,0 +1,1139 @@
+Python 3.7.11 (default, Jul 27 2021, 14:32:16) 
+Type "copyright", "credits" or "license" for more information.
+
+IPython 7.22.0 -- An enhanced Interactive Python.
+
+runfile('/media/xyzhou/extDisk2t/_AAAI22/QtPreserveRob/cifar10toSVHNtransfer0.py', wdir='/media/xyzhou/extDisk2t/_AAAI22/QtPreserveRob')
+cuda:0
+Using downloaded and verified file: ./data/svhn/train_32x32.mat
+Using downloaded and verified file: ./data/svhn/test_32x32.mat
+Files already downloaded and verified
+Files already downloaded and verified
+=========Start layerwise adversarial sensitivity evaluation======
+Num of layer outputs to record: 129
+Num of layer outputs to record: 129
+Num of layer outputs to record: 129
+Num of layer outputs to record: 129
+Num of layer outputs to record: 129
+Num of layer outputs to record: 129
+Num of layer outputs to record: 129
+Num of layer outputs to record: 129
+Num of layer outputs to record: 129
+Num of layer outputs to record: 129
+Num of layer outputs to record: 129
+Num of layer outputs to record: 129
+Num of layer outputs to record: 129
+Num of layer outputs to record: 129
+Num of layer outputs to record: 129
+Num of layer outputs to record: 129
+x1pow tensor([ 20609.6055, 331368.0938, 260779.2812, 260779.2812, 155451.1562,
+        266284.1562, 266284.1562, 174739.9375,  58143.8242,  58143.8242,
+         51267.6484,  93186.9531, 179417.0781,  51393.9805,  51393.9805,
+          6631.3076,  46571.3281,  46571.3281,   7449.8281, 206565.0625,
+         54123.7148,  54123.7148,   7071.4761,  70844.0469,  70844.0469,
+          9471.6143, 260779.2812,  78002.6484,  78002.6484,  12736.2324,
+        137059.4062, 137059.4062,  26201.4824,      0.0000,      0.0000,
+             0.0000,      0.0000,      0.0000,      0.0000,      0.0000,
+             0.0000,      0.0000,      0.0000,      0.0000,      0.0000,
+             0.0000,      0.0000,      0.0000,      0.0000,      0.0000,
+             0.0000,      0.0000,      0.0000,      0.0000,      0.0000,
+             0.0000,      0.0000,      0.0000,      0.0000,      0.0000,
+             0.0000,      0.0000,      0.0000,      0.0000, 140017.3281,
+        140017.3281,  53011.2344, 222995.5000, 222995.5000,  60844.9688,
+         34024.4844,  34024.4844,  39649.9375,   4074.3364,  70471.3828,
+         39680.8359,  39680.8359,  17835.2695,  28498.4609,  28498.4609,
+          9905.6914,  94416.5234,  30878.9609,  30878.9609,  10385.5234,
+         30176.2539,  30176.2539,   8491.0117, 140017.3281,  20461.0645,
+         20461.0645,   4875.8916,  39726.0586,  39726.0586,  16082.0723,
+         81648.9766,  81648.9766,  10876.5312,  55142.4570,  55142.4570,
+         21324.2422,   7895.9258,   7895.9258,   7315.1284,   1173.8148,
+         23061.1797,  17093.5977,  17093.5977,  17088.8848,  10813.9199,
+         10813.9199,   6352.7188,  45539.6289,  13286.5771,  13286.5771,
+          8381.4668,  19620.7285,  19620.7285,  13932.7500,  81648.9766,
+         16662.1836,  16662.1836,  12406.4922,  66222.3672,  66222.3672,
+         39805.1445, 940530.2500, 940530.2500,  20609.6055])
+x2pow tensor([ 20436.8535, 331624.9375, 260977.3125, 260977.3125, 155786.1094,
+        266692.1562, 266692.1562, 175036.4375,  58244.9336,  58244.9336,
+         51338.7227,  93431.2188, 179766.2969,  51488.9570,  51488.9570,
+          6646.1450,  46708.6875,  46708.6875,   7458.9995, 206897.3906,
+         54217.3711,  54217.3711,   7084.9478,  71124.9688,  71124.9688,
+          9501.1836, 260977.3125,  77958.4219,  77958.4219,  12729.1816,
+        136978.9688, 136978.9688,  26150.5469,      0.0000,      0.0000,
+             0.0000,      0.0000,      0.0000,      0.0000,      0.0000,
+             0.0000,      0.0000,      0.0000,      0.0000,      0.0000,
+             0.0000,      0.0000,      0.0000,      0.0000,      0.0000,
+             0.0000,      0.0000,      0.0000,      0.0000,      0.0000,
+             0.0000,      0.0000,      0.0000,      0.0000,      0.0000,
+             0.0000,      0.0000,      0.0000,      0.0000, 139099.7031,
+        139099.7031,  52870.0312, 222670.0625, 222670.0625,  60685.7969,
+         33939.8867,  33939.8867,  39556.9297,   4063.5256,  70244.7031,
+         39559.7773,  39559.7773,  17797.5996,  28378.7812,  28378.7812,
+          9862.4062,  94012.7422,  30767.9375,  30767.9375,  10354.2822,
+         29992.5098,  29992.5098,   8425.5615, 139099.7031,  20367.7109,
+         20367.7109,   4852.2212,  39332.8594,  39332.8594,  15883.2520,
+         80975.0312,  80975.0312,  10809.2461,  54920.3438,  54920.3438,
+         21214.1582,   7844.9644,   7844.9644,   7264.8291,   1169.9309,
+         22860.3105,  16957.6113,  16957.6113,  16944.7168,  10697.1074,
+         10697.1074,   6276.6670,  44927.7617,  13157.0547,  13157.0547,
+          8281.3145,  19265.7617,  19265.7617,  13645.5615,  80975.0312,
+         16416.5430,  16416.5430,  12150.2275,  65154.4062,  65154.4062,
+         39832.7578, 954609.2500, 954609.2500,  20436.8535])
+x12dif: tensor([5.5627e+02, 5.2526e+02, 1.6856e+03, 1.6856e+03, 5.4750e+02, 6.8152e+02,
+        6.8152e+02, 4.5117e+02, 3.9472e+02, 3.9472e+02, 2.3507e+02, 2.7114e+02,
+        6.9735e+02, 7.6579e+02, 7.6579e+02, 8.9583e+01, 1.1155e+03, 1.1155e+03,
+        1.2381e+02, 9.7335e+02, 1.0121e+03, 1.0121e+03, 1.1441e+02, 2.1784e+03,
+        2.1784e+03, 1.9248e+02, 1.6856e+03, 1.4282e+03, 1.4282e+03, 1.7362e+02,
+        3.6932e+03, 3.6932e+03, 4.8404e+02, 0.0000e+00, 0.0000e+00, 0.0000e+00,
+        0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00,
+        0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00,
+        0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00,
+        0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00,
+        0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00, 9.5325e+02, 9.5325e+02,
+        3.2409e+02, 2.1929e+03, 2.1929e+03, 3.0997e+02, 3.8095e+02, 3.8095e+02,
+        2.4201e+02, 1.7987e+01, 4.6314e+02, 4.8870e+02, 4.8870e+02, 1.5102e+02,
+        5.7387e+02, 5.7387e+02, 1.1402e+02, 6.3413e+02, 4.8920e+02, 4.8920e+02,
+        1.0003e+02, 7.1445e+02, 7.1445e+02, 1.0464e+02, 9.5325e+02, 4.2951e+02,
+        4.2951e+02, 6.6499e+01, 1.0096e+03, 1.0096e+03, 1.7060e+02, 2.5523e+03,
+        2.5523e+03, 1.0727e+02, 8.5643e+02, 8.5643e+02, 1.7410e+02, 1.7949e+02,
+        1.7949e+02, 7.5873e+01, 1.1366e+01, 1.9494e+02, 4.1296e+02, 4.1296e+02,
+        1.4486e+02, 3.4682e+02, 3.4682e+02, 7.4253e+01, 4.5832e+02, 4.1822e+02,
+        4.1822e+02, 1.0865e+02, 6.8485e+02, 6.8485e+02, 2.2497e+02, 2.5523e+03,
+        5.5250e+02, 5.5250e+02, 2.4627e+02, 2.4600e+03, 2.4600e+03, 1.8027e+03,
+        3.9624e+04, 3.9624e+04, 5.5627e+02])
+Num of layer outputs to record: 129
+Num of layer outputs to record: 129
+Num of layer outputs to record: 129
+Num of layer outputs to record: 129
+Num of layer outputs to record: 129
+Num of layer outputs to record: 129
+Num of layer outputs to record: 129
+Num of layer outputs to record: 129
+Num of layer outputs to record: 129
+Num of layer outputs to record: 129
+Num of layer outputs to record: 129
+Num of layer outputs to record: 129
+Num of layer outputs to record: 129
+Num of layer outputs to record: 129
+Num of layer outputs to record: 129
+Num of layer outputs to record: 129
+x1pow tensor([ 20609.6055, 331368.0938, 260779.2812, 260779.2812, 155451.1562,
+        266284.1562, 266284.1562, 174739.9375,  58143.8242,  58143.8242,
+         51267.6484,  93186.9531, 179417.0781,  51393.9805,  51393.9805,
+          6631.3076,  46571.3281,  46571.3281,   7449.8281, 206565.0625,
+         54123.7148,  54123.7148,   7071.4761,  70844.0469,  70844.0469,
+          9471.6143, 260779.2812,  78002.6484,  78002.6484,  12736.2324,
+        137059.4062, 137059.4062,  26201.4824,      0.0000,      0.0000,
+             0.0000,      0.0000,      0.0000,      0.0000,      0.0000,
+             0.0000,      0.0000,      0.0000,      0.0000,      0.0000,
+             0.0000,      0.0000,      0.0000,      0.0000,      0.0000,
+             0.0000,      0.0000,      0.0000,      0.0000,      0.0000,
+             0.0000,      0.0000,      0.0000,      0.0000,      0.0000,
+             0.0000,      0.0000,      0.0000,      0.0000, 140017.3281,
+        140017.3281,  53011.2344, 222995.5000, 222995.5000,  60844.9688,
+         34024.4844,  34024.4844,  39649.9375,   4074.3364,  70471.3828,
+         39680.8359,  39680.8359,  17835.2695,  28498.4609,  28498.4609,
+          9905.6914,  94416.5234,  30878.9609,  30878.9609,  10385.5234,
+         30176.2539,  30176.2539,   8491.0117, 140017.3281,  20461.0645,
+         20461.0645,   4875.8916,  39726.0586,  39726.0586,  16082.0723,
+         81648.9766,  81648.9766,  10876.5312,  55142.4570,  55142.4570,
+         21324.2422,   7895.9258,   7895.9258,   7315.1284,   1173.8148,
+         23061.1797,  17093.5977,  17093.5977,  17088.8848,  10813.9199,
+         10813.9199,   6352.7188,  45539.6289,  13286.5771,  13286.5771,
+          8381.4668,  19620.7285,  19620.7285,  13932.7500,  81648.9766,
+         16662.1836,  16662.1836,  12406.4922,  66222.3672,  66222.3672,
+         39805.1445, 940530.2500, 940530.2500,  20609.6055])
+x2pow tensor([ 20171.0742, 332079.4688, 258871.7031, 258871.7031, 155839.1250,
+        267545.3438, 267545.3438, 175548.4844,  58801.7109,  58801.7109,
+         51182.4766,  93652.2500, 179411.9375,  52297.0977,  52297.0977,
+          6760.6982,  48079.8984,  48079.8984,   7481.9858, 206027.7188,
+         55175.2109,  55175.2109,   7180.8799,  73417.3672,  73417.3672,
+          9646.8145, 258871.7031,  78014.3984,  78014.3984,  12778.8496,
+        136663.2500, 136663.2500,  25613.3438,      0.0000,      0.0000,
+             0.0000,      0.0000,      0.0000,      0.0000,      0.0000,
+             0.0000,      0.0000,      0.0000,      0.0000,      0.0000,
+             0.0000,      0.0000,      0.0000,      0.0000,      0.0000,
+             0.0000,      0.0000,      0.0000,      0.0000,      0.0000,
+             0.0000,      0.0000,      0.0000,      0.0000,      0.0000,
+             0.0000,      0.0000,      0.0000,      0.0000, 133314.9688,
+        133314.9688,  51202.9570, 219126.5781, 219126.5781,  58924.4219,
+         33030.5117,  33030.5117,  38433.2930,   3932.6462,  67898.5391,
+         38659.2344,  38659.2344,  17430.7266,  27312.9668,  27312.9668,
+          9450.6514,  90813.8203,  30052.1914,  30052.1914,  10198.1699,
+         28937.8867,  28937.8867,   8113.6572, 133314.9688,  19697.3164,
+         19697.3164,   4711.0640,  37202.8281,  37202.8281,  14798.3428,
+         80661.2031,  80661.2031,  10544.2676,  53425.0898,  53425.0898,
+         20519.1777,   7620.9214,   7620.9214,   7077.6045,   1145.1698,
+         22250.3477,  16479.1758,  16479.1758,  16505.2305,  10379.9150,
+         10379.9150,   6091.8018,  44004.3359,  12891.9189,  12891.9189,
+          8202.5889,  18861.6328,  18861.6328,  13441.8691,  80661.2031,
+         16303.5254,  16303.5254,  12283.8848,  64617.3672,  64617.3672,
+         39444.3594, 922064.4375, 922064.4375,  20171.0742])
+x12dif: tensor([4.4486e+01, 1.4190e+03, 3.4262e+03, 3.4262e+03, 1.1907e+03, 1.8864e+03,
+        1.8864e+03, 1.0916e+03, 1.1184e+03, 1.1184e+03, 2.9070e+02, 7.7232e+02,
+        1.3612e+03, 2.6352e+03, 2.6352e+03, 3.0774e+02, 3.8238e+03, 3.8238e+03,
+        3.4268e+02, 2.0347e+03, 3.3584e+03, 3.3584e+03, 3.6547e+02, 7.0968e+03,
+        7.0968e+03, 5.0670e+02, 3.4262e+03, 4.1934e+03, 4.1934e+03, 4.4335e+02,
+        9.6763e+03, 9.6763e+03, 9.8136e+02, 0.0000e+00, 0.0000e+00, 0.0000e+00,
+        0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00,
+        0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00,
+        0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00,
+        0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00,
+        0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00, 8.0455e+02, 8.0455e+02,
+        3.0298e+02, 4.2921e+03, 4.2921e+03, 3.7115e+02, 4.5858e+02, 4.5858e+02,
+        2.1594e+02, 2.2410e+01, 4.1111e+02, 4.7667e+02, 4.7667e+02, 1.2486e+02,
+        5.1472e+02, 5.1472e+02, 9.3782e+01, 5.3541e+02, 4.2734e+02, 4.2734e+02,
+        7.4558e+01, 5.7559e+02, 5.7559e+02, 7.7611e+01, 8.0455e+02, 3.3980e+02,
+        3.3980e+02, 4.6647e+01, 7.5035e+02, 7.5035e+02, 1.4007e+02, 2.7327e+02,
+        2.7327e+02, 5.5471e+01, 5.9190e+02, 5.9190e+02, 1.1041e+02, 9.8062e+01,
+        9.8062e+01, 3.5885e+01, 8.4951e+00, 8.8785e+01, 2.0151e+02, 2.0151e+02,
+        6.3167e+01, 1.4463e+02, 1.4463e+02, 2.8327e+01, 1.3098e+02, 1.6471e+02,
+        1.6471e+02, 3.2586e+01, 1.9011e+02, 1.9011e+02, 3.8095e+01, 2.7327e+02,
+        1.2515e+02, 1.2515e+02, 2.9355e+01, 2.9607e+02, 2.9607e+02, 1.4268e+02,
+        3.7729e+03, 3.7729e+03, 4.4486e+01])
+Adv/Gauss layer sensitivity definition.
+Mean Layer Sensitivity: 1.2795099
+epoch: 5
+================================================================
+Iteration: 5
+Train loss Before Qt: 118.56308257327413   Train Acc Before Qt: 84.02063966687544
+epoch: 6
+================================================================
+Iteration: 6
+Train loss Before Qt: 118.47253111489066   Train Acc Before Qt: 83.56334548171812
+epoch: 7
+================================================================
+Iteration: 7
+Train loss Before Qt: 117.629539616283   Train Acc Before Qt: 83.7148668405385
+epoch: 8
+================================================================
+Iteration: 8
+Train loss Before Qt: 109.7984812230741   Train Acc Before Qt: 86.42860067990266
+epoch: 9
+================================================================
+Iteration: 9
+Train loss Before Qt: 114.96735367858996   Train Acc Before Qt: 84.52980602723738
+epoch: 10
+================================================================
+Iteration: 10
+Train loss Before Qt: 132.97729777358992   Train Acc Before Qt: 80.49879192452951
+epoch: 11
+================================================================
+Iteration: 11
+Train loss Before Qt: 123.33874633746154   Train Acc Before Qt: 86.88043463433705
+epoch: 12
+================================================================
+Iteration: 12
+Train loss Before Qt: 125.84125774403384   Train Acc Before Qt: 84.45745798963368
+epoch: 13
+================================================================
+Iteration: 13
+Train loss Before Qt: 124.30834653176825   Train Acc Before Qt: 85.1509070823225
+epoch: 14
+================================================================
+Iteration: 14
+Train loss Before Qt: 127.23518948267485   Train Acc Before Qt: 84.07797207363616
+epoch: 15
+================================================================
+Iteration: 15
+Train loss Before Qt: 126.49215464362403   Train Acc Before Qt: 83.58928157046603
+Eval Transfer Model
+using custom version including apgd-ce, apgd-dlr
+initial accuracy: 86.80%
+apgd-ce - 1/14 - 46 out of 128 successfully perturbed
+apgd-ce - 2/14 - 48 out of 128 successfully perturbed
+apgd-ce - 3/14 - 57 out of 128 successfully perturbed
+apgd-ce - 4/14 - 54 out of 128 successfully perturbed
+apgd-ce - 5/14 - 59 out of 128 successfully perturbed
+apgd-ce - 6/14 - 53 out of 128 successfully perturbed
+apgd-ce - 7/14 - 53 out of 128 successfully perturbed
+apgd-ce - 8/14 - 48 out of 128 successfully perturbed
+apgd-ce - 9/14 - 37 out of 128 successfully perturbed
+apgd-ce - 10/14 - 54 out of 128 successfully perturbed
+apgd-ce - 11/14 - 64 out of 128 successfully perturbed
+apgd-ce - 12/14 - 64 out of 128 successfully perturbed
+apgd-ce - 13/14 - 51 out of 128 successfully perturbed
+apgd-ce - 14/14 - 28 out of 72 successfully perturbed
+robust accuracy after APGD-CE: 51.00% (total time 786.8 s)
+apgd-dlr - 1/8 - 8 out of 128 successfully perturbed
+apgd-dlr - 2/8 - 10 out of 128 successfully perturbed
+apgd-dlr - 3/8 - 12 out of 128 successfully perturbed
+apgd-dlr - 4/8 - 15 out of 128 successfully perturbed
+apgd-dlr - 5/8 - 9 out of 128 successfully perturbed
+apgd-dlr - 6/8 - 16 out of 128 successfully perturbed
+apgd-dlr - 7/8 - 8 out of 128 successfully perturbed
+apgd-dlr - 8/8 - 15 out of 124 successfully perturbed
+robust accuracy after APGD-DLR: 46.35% (total time 1251.0 s)
+max Linf perturbation: 0.03137, nan in tensor: 0, max: 1.00000, min: 0.00000
+robust accuracy: 46.35%
+Linear w8a8 eval.
+using custom version including apgd-ce, apgd-dlr
+initial accuracy: 87.05%
+apgd-ce - 1/14 - 46 out of 128 successfully perturbed
+apgd-ce - 2/14 - 48 out of 128 successfully perturbed
+apgd-ce - 3/14 - 58 out of 128 successfully perturbed
+apgd-ce - 4/14 - 55 out of 128 successfully perturbed
+apgd-ce - 5/14 - 61 out of 128 successfully perturbed
+apgd-ce - 6/14 - 51 out of 128 successfully perturbed
+apgd-ce - 7/14 - 59 out of 128 successfully perturbed
+apgd-ce - 8/14 - 51 out of 128 successfully perturbed
+apgd-ce - 9/14 - 39 out of 128 successfully perturbed
+apgd-ce - 10/14 - 52 out of 128 successfully perturbed
+apgd-ce - 11/14 - 61 out of 128 successfully perturbed
+apgd-ce - 12/14 - 63 out of 128 successfully perturbed
+apgd-ce - 13/14 - 56 out of 128 successfully perturbed
+apgd-ce - 14/14 - 28 out of 77 successfully perturbed
+robust accuracy after APGD-CE: 50.65% (total time 774.2 s)
+apgd-dlr - 1/8 - 10 out of 128 successfully perturbed
+apgd-dlr - 2/8 - 9 out of 128 successfully perturbed
+apgd-dlr - 3/8 - 14 out of 128 successfully perturbed
+apgd-dlr - 4/8 - 16 out of 128 successfully perturbed
+apgd-dlr - 5/8 - 10 out of 128 successfully perturbed
+apgd-dlr - 6/8 - 16 out of 128 successfully perturbed
+apgd-dlr - 7/8 - 9 out of 128 successfully perturbed
+apgd-dlr - 8/8 - 13 out of 117 successfully perturbed
+robust accuracy after APGD-DLR: 45.80% (total time 1227.6 s)
+max Linf perturbation: 0.03137, nan in tensor: 0, max: 1.00000, min: 0.00000
+robust accuracy: 45.80%
+Linear w7a7 eval.
+using custom version including apgd-ce, apgd-dlr
+initial accuracy: 86.95%
+apgd-ce - 1/14 - 50 out of 128 successfully perturbed
+apgd-ce - 2/14 - 50 out of 128 successfully perturbed
+apgd-ce - 3/14 - 57 out of 128 successfully perturbed
+apgd-ce - 4/14 - 54 out of 128 successfully perturbed
+apgd-ce - 5/14 - 58 out of 128 successfully perturbed
+apgd-ce - 6/14 - 53 out of 128 successfully perturbed
+apgd-ce - 7/14 - 55 out of 128 successfully perturbed
+apgd-ce - 8/14 - 49 out of 128 successfully perturbed
+apgd-ce - 9/14 - 38 out of 128 successfully perturbed
+apgd-ce - 10/14 - 52 out of 128 successfully perturbed
+apgd-ce - 11/14 - 64 out of 128 successfully perturbed
+apgd-ce - 12/14 - 65 out of 128 successfully perturbed
+apgd-ce - 13/14 - 53 out of 128 successfully perturbed
+apgd-ce - 14/14 - 28 out of 75 successfully perturbed
+robust accuracy after APGD-CE: 50.65% (total time 772.8 s)
+apgd-dlr - 1/8 - 4 out of 128 successfully perturbed
+apgd-dlr - 2/8 - 10 out of 128 successfully perturbed
+apgd-dlr - 3/8 - 15 out of 128 successfully perturbed
+apgd-dlr - 4/8 - 16 out of 128 successfully perturbed
+apgd-dlr - 5/8 - 10 out of 128 successfully perturbed
+apgd-dlr - 6/8 - 14 out of 128 successfully perturbed
+apgd-dlr - 7/8 - 9 out of 128 successfully perturbed
+apgd-dlr - 8/8 - 13 out of 117 successfully perturbed
+robust accuracy after APGD-DLR: 46.10% (total time 1223.7 s)
+max Linf perturbation: 0.03137, nan in tensor: 0, max: 1.00000, min: 0.00000
+robust accuracy: 46.10%
+Linear w8a8 eval.
+Current Pert: UAPs/ptq_single/x_noisetr10000_w8a8_4.npy
+clean accuracy: 88.49%
+Current Pert: UAPs/ptq_single/x_noisetr10000_w4a4_4.npy
+clean accuracy: 88.50%
+Current Pert: UAPs/ptq_single/x_noisetr10000_w3a3_4.npy
+clean accuracy: 88.51%
+Current Pert: UAPs/ptq_single/x_noisetr10000_w3a2_4.npy
+clean accuracy: 88.49%
+Current Pert: UAPs/ptq_single/x_noisetr10000_w2a2_4.npy
+clean accuracy: 88.60%
+Current Pert: UAPs/ptq_multi/uap10000tr_4.npy
+clean accuracy: 88.74%
+Current Pert: UAPs/ptq_single/x_noisetst10000_w8a8_4.npy
+clean accuracy: 88.51%
+Current Pert: UAPs/ptq_single/x_noisetst10000_w4a4_4.npy
+clean accuracy: 88.44%
+Current Pert: UAPs/ptq_single/x_noisetst10000_w3a3_4.npy
+clean accuracy: 88.42%
+Current Pert: UAPs/ptq_single/x_noisetst10000_w3a2_4.npy
+clean accuracy: 88.42%
+Current Pert: UAPs/ptq_single/x_noisetst10000_w2a2_4.npy
+clean accuracy: 88.41%
+Current Pert: UAPs/ptq_multi/uap10000tst_4.npy
+clean accuracy: 88.62%
+Current Pert: UAPs/ptq_single/x_noisetr10000_w8a8_8.npy
+clean accuracy: 89.50%
+Current Pert: UAPs/ptq_single/x_noisetr10000_w4a4_8.npy
+clean accuracy: 89.34%
+Current Pert: UAPs/ptq_single/x_noisetr10000_w3a3_8.npy
+clean accuracy: 89.36%
+Current Pert: UAPs/ptq_single/x_noisetr10000_w3a2_8.npy
+clean accuracy: 89.28%
+Current Pert: UAPs/ptq_single/x_noisetr10000_w2a2_8.npy
+clean accuracy: 89.64%
+Current Pert: UAPs/ptq_multi/uap10000tr_8.npy
+clean accuracy: 90.01%
+Current Pert: UAPs/ptq_single/x_noisetst10000_w8a8_8.npy
+clean accuracy: 89.49%
+Current Pert: UAPs/ptq_single/x_noisetst10000_w4a4_8.npy
+clean accuracy: 89.38%
+Current Pert: UAPs/ptq_single/x_noisetst10000_w3a3_8.npy
+clean accuracy: 89.07%
+Current Pert: UAPs/ptq_single/x_noisetst10000_w3a2_8.npy
+clean accuracy: 89.33%
+Current Pert: UAPs/ptq_single/x_noisetst10000_w2a2_8.npy
+clean accuracy: 89.45%
+Current Pert: UAPs/ptq_multi/uap10000tst_8.npy
+clean accuracy: 89.69%
+Current Pert: UAPs/ptq_single/x_noisetr10000_w8a8_12.npy
+clean accuracy: 89.88%
+Current Pert: UAPs/ptq_single/x_noisetr10000_w4a4_12.npy
+clean accuracy: 90.04%
+Current Pert: UAPs/ptq_single/x_noisetr10000_w3a3_12.npy
+clean accuracy: 89.87%
+Current Pert: UAPs/ptq_single/x_noisetr10000_w3a2_12.npy
+clean accuracy: 89.88%
+Current Pert: UAPs/ptq_single/x_noisetr10000_w2a2_12.npy
+clean accuracy: 89.86%
+Current Pert: UAPs/ptq_multi/uap10000tr_12.npy
+clean accuracy: 90.21%
+Current Pert: UAPs/ptq_single/x_noisetst10000_w8a8_12.npy
+clean accuracy: 90.27%
+Current Pert: UAPs/ptq_single/x_noisetst10000_w4a4_12.npy
+clean accuracy: 90.00%
+Current Pert: UAPs/ptq_single/x_noisetst10000_w3a3_12.npy
+clean accuracy: 89.87%
+Current Pert: UAPs/ptq_single/x_noisetst10000_w3a2_12.npy
+clean accuracy: 90.37%
+Current Pert: UAPs/ptq_single/x_noisetst10000_w2a2_12.npy
+clean accuracy: 90.02%
+Current Pert: UAPs/ptq_multi/uap10000tst_12.npy
+clean accuracy: 90.08%
+Current Pert: UAPs/ptq_single/x_noisetr10000_w8a8_16.npy
+clean accuracy: 90.20%
+Current Pert: UAPs/ptq_single/x_noisetr10000_w4a4_16.npy
+clean accuracy: 90.05%
+Current Pert: UAPs/ptq_single/x_noisetr10000_w3a3_16.npy
+clean accuracy: 89.84%
+Current Pert: UAPs/ptq_single/x_noisetr10000_w3a2_16.npy
+clean accuracy: 89.75%
+Current Pert: UAPs/ptq_single/x_noisetr10000_w2a2_16.npy
+clean accuracy: 90.41%
+Current Pert: UAPs/ptq_multi/uap10000tr_16.npy
+clean accuracy: 88.89%
+Current Pert: UAPs/ptq_single/x_noisetst10000_w8a8_16.npy
+clean accuracy: 90.02%
+Current Pert: UAPs/ptq_single/x_noisetst10000_w4a4_16.npy
+clean accuracy: 90.18%
+Current Pert: UAPs/ptq_single/x_noisetst10000_w3a3_16.npy
+clean accuracy: 90.03%
+Current Pert: UAPs/ptq_single/x_noisetst10000_w3a2_16.npy
+clean accuracy: 90.05%
+Current Pert: UAPs/ptq_single/x_noisetst10000_w2a2_16.npy
+clean accuracy: 90.26%
+Current Pert: UAPs/ptq_multi/uap10000tst_16.npy
+clean accuracy: 89.73%
+Current Pert: UAPs/ptq_single/x_noisetr10000_w8a8_20.npy
+clean accuracy: 89.62%
+Current Pert: UAPs/ptq_single/x_noisetr10000_w4a4_20.npy
+clean accuracy: 89.43%
+Current Pert: UAPs/ptq_single/x_noisetr10000_w3a3_20.npy
+clean accuracy: 88.80%
+Current Pert: UAPs/ptq_single/x_noisetr10000_w3a2_20.npy
+clean accuracy: 89.74%
+Current Pert: UAPs/ptq_single/x_noisetr10000_w2a2_20.npy
+clean accuracy: 88.99%
+Current Pert: UAPs/ptq_multi/uap10000tr_20.npy
+clean accuracy: 88.34%
+Current Pert: UAPs/ptq_single/x_noisetst10000_w8a8_20.npy
+clean accuracy: 89.84%
+Current Pert: UAPs/ptq_single/x_noisetst10000_w4a4_20.npy
+clean accuracy: 89.83%
+Current Pert: UAPs/ptq_single/x_noisetst10000_w3a3_20.npy
+clean accuracy: 89.41%
+Current Pert: UAPs/ptq_single/x_noisetst10000_w3a2_20.npy
+clean accuracy: 89.38%
+Current Pert: UAPs/ptq_single/x_noisetst10000_w2a2_20.npy
+clean accuracy: 89.35%
+Current Pert: UAPs/ptq_multi/uap10000tst_20.npy
+clean accuracy: 87.71%
+Current Pert: UAPs/ptq_single/x_noisetr10000_w8a8_26.npy
+clean accuracy: 87.22%
+Current Pert: UAPs/ptq_single/x_noisetr10000_w4a4_26.npy
+clean accuracy: 87.49%
+Current Pert: UAPs/ptq_single/x_noisetr10000_w3a3_26.npy
+clean accuracy: 88.34%
+Current Pert: UAPs/ptq_single/x_noisetr10000_w3a2_26.npy
+clean accuracy: 87.30%
+Current Pert: UAPs/ptq_single/x_noisetr10000_w2a2_26.npy
+clean accuracy: 86.80%
+Current Pert: UAPs/ptq_multi/uap10000tr_26.npy
+clean accuracy: 85.11%
+Current Pert: UAPs/ptq_single/x_noisetst10000_w8a8_26.npy
+clean accuracy: 88.67%
+Current Pert: UAPs/ptq_single/x_noisetst10000_w4a4_26.npy
+clean accuracy: 87.89%
+Current Pert: UAPs/ptq_single/x_noisetst10000_w3a3_26.npy
+clean accuracy: 87.69%
+Current Pert: UAPs/ptq_single/x_noisetst10000_w3a2_26.npy
+clean accuracy: 87.51%
+Current Pert: UAPs/ptq_single/x_noisetst10000_w2a2_26.npy
+clean accuracy: 86.89%
+Current Pert: UAPs/ptq_multi/uap10000tst_26.npy
+clean accuracy: 83.32%
+Current Pert: UAPs/ptq_single/x_noisetr10000_w8a8_32.npy
+clean accuracy: 83.94%
+Current Pert: UAPs/ptq_single/x_noisetr10000_w4a4_32.npy
+clean accuracy: 84.92%
+Current Pert: UAPs/ptq_single/x_noisetr10000_w3a3_32.npy
+clean accuracy: 84.57%
+Current Pert: UAPs/ptq_single/x_noisetr10000_w3a2_32.npy
+clean accuracy: 82.40%
+Current Pert: UAPs/ptq_single/x_noisetr10000_w2a2_32.npy
+clean accuracy: 85.78%
+Current Pert: UAPs/ptq_multi/uap10000tr_32.npy
+clean accuracy: 79.89%
+Current Pert: UAPs/ptq_single/x_noisetst10000_w8a8_32.npy
+clean accuracy: 81.22%
+Current Pert: UAPs/ptq_single/x_noisetst10000_w4a4_32.npy
+clean accuracy: 83.01%
+Current Pert: UAPs/ptq_single/x_noisetst10000_w3a3_32.npy
+clean accuracy: 84.30%
+Current Pert: UAPs/ptq_single/x_noisetst10000_w3a2_32.npy
+clean accuracy: 82.91%
+Current Pert: UAPs/ptq_single/x_noisetst10000_w2a2_32.npy
+clean accuracy: 83.14%
+Current Pert: UAPs/ptq_multi/uap10000tst_32.npy
+clean accuracy: 78.53%
+Current Pert: UAPs/uqat_single/x_noisetr10000_w8a8_4.npy
+clean accuracy: 88.42%
+Current Pert: UAPs/uqat_single/x_noisetr10000_w4a4_4.npy
+clean accuracy: 88.51%
+Current Pert: UAPs/uqat_single/x_noisetr10000_w3a3_4.npy
+clean accuracy: 88.47%
+Current Pert: UAPs/uqat_single/x_noisetr10000_w3a2_4.npy
+clean accuracy: 88.47%
+Current Pert: UAPs/uqat_single/x_noisetr10000_w2a2_4.npy
+clean accuracy: 88.51%
+Current Pert: UAPs/uqat_single/x_noisetr10000_w1a2_4.npy
+clean accuracy: 88.50%
+Current Pert: UAPs/uqat_single/x_noisetr10000_w1a1_4.npy
+clean accuracy: 88.34%
+Current Pert: UAPs/uqat_multi/uap10000tr_4.npy
+clean accuracy: 88.76%
+Current Pert: UAPs/uqat_single/x_noisetst10000_w8a8_4.npy
+clean accuracy: 88.55%
+Current Pert: UAPs/uqat_single/x_noisetst10000_w4a4_4.npy
+clean accuracy: 88.32%
+Current Pert: UAPs/uqat_single/x_noisetst10000_w3a3_4.npy
+clean accuracy: 88.51%
+Current Pert: UAPs/uqat_single/x_noisetst10000_w3a2_4.npy
+clean accuracy: 88.37%
+Current Pert: UAPs/uqat_single/x_noisetst10000_w2a2_4.npy
+clean accuracy: 88.51%
+Current Pert: UAPs/uqat_single/x_noisetst10000_w1a2_4.npy
+clean accuracy: 88.41%
+Current Pert: UAPs/uqat_single/x_noisetst10000_w1a1_4.npy
+clean accuracy: 88.43%
+Current Pert: UAPs/uqat_multi/uap10000tst_4.npy
+clean accuracy: 88.53%
+Current Pert: UAPs/uqat_single/x_noisetr10000_w8a8_8.npy
+clean accuracy: 89.60%
+Current Pert: UAPs/uqat_single/x_noisetr10000_w4a4_8.npy
+clean accuracy: 89.35%
+Current Pert: UAPs/uqat_single/x_noisetr10000_w3a3_8.npy
+clean accuracy: 89.54%
+Current Pert: UAPs/uqat_single/x_noisetr10000_w3a2_8.npy
+clean accuracy: 89.49%
+Current Pert: UAPs/uqat_single/x_noisetr10000_w2a2_8.npy
+clean accuracy: 89.46%
+Current Pert: UAPs/uqat_single/x_noisetr10000_w1a2_8.npy
+clean accuracy: 89.36%
+Current Pert: UAPs/uqat_single/x_noisetr10000_w1a1_8.npy
+clean accuracy: 88.78%
+Current Pert: UAPs/uqat_multi/uap10000tr_8.npy
+clean accuracy: 89.99%
+Current Pert: UAPs/uqat_single/x_noisetst10000_w8a8_8.npy
+clean accuracy: 89.50%
+Current Pert: UAPs/uqat_single/x_noisetst10000_w4a4_8.npy
+clean accuracy: 89.77%
+Current Pert: UAPs/uqat_single/x_noisetst10000_w3a3_8.npy
+clean accuracy: 89.47%
+Current Pert: UAPs/uqat_single/x_noisetst10000_w3a2_8.npy
+clean accuracy: 89.63%
+Current Pert: UAPs/uqat_single/x_noisetst10000_w2a2_8.npy
+clean accuracy: 89.47%
+Current Pert: UAPs/uqat_single/x_noisetst10000_w1a2_8.npy
+clean accuracy: 89.33%
+Current Pert: UAPs/uqat_single/x_noisetst10000_w1a1_8.npy
+clean accuracy: 88.93%
+Current Pert: UAPs/uqat_multi/uap10000tst_8.npy
+clean accuracy: 89.74%
+Current Pert: UAPs/uqat_single/x_noisetr10000_w8a8_12.npy
+clean accuracy: 90.02%
+Current Pert: UAPs/uqat_single/x_noisetr10000_w4a4_12.npy
+clean accuracy: 89.91%
+Current Pert: UAPs/uqat_single/x_noisetr10000_w3a3_12.npy
+clean accuracy: 89.82%
+Current Pert: UAPs/uqat_single/x_noisetr10000_w3a2_12.npy
+clean accuracy: 90.28%
+Current Pert: UAPs/uqat_single/x_noisetr10000_w2a2_12.npy
+clean accuracy: 89.97%
+Current Pert: UAPs/uqat_single/x_noisetr10000_w1a2_12.npy
+clean accuracy: 89.47%
+Current Pert: UAPs/uqat_single/x_noisetr10000_w1a1_12.npy
+clean accuracy: 88.64%
+Current Pert: UAPs/uqat_multi/uap10000tr_12.npy
+clean accuracy: 90.39%
+Current Pert: UAPs/uqat_single/x_noisetst10000_w8a8_12.npy
+clean accuracy: 90.34%
+Current Pert: UAPs/uqat_single/x_noisetst10000_w4a4_12.npy
+clean accuracy: 90.23%
+Current Pert: UAPs/uqat_single/x_noisetst10000_w3a3_12.npy
+clean accuracy: 89.96%
+Current Pert: UAPs/uqat_single/x_noisetst10000_w3a2_12.npy
+clean accuracy: 90.32%
+Current Pert: UAPs/uqat_single/x_noisetst10000_w2a2_12.npy
+clean accuracy: 90.15%
+Current Pert: UAPs/uqat_single/x_noisetst10000_w1a2_12.npy
+clean accuracy: 90.70%
+Current Pert: UAPs/uqat_single/x_noisetst10000_w1a1_12.npy
+clean accuracy: 89.67%
+Current Pert: UAPs/uqat_multi/uap10000tst_12.npy
+clean accuracy: 89.75%
+Current Pert: UAPs/uqat_single/x_noisetr10000_w8a8_16.npy
+clean accuracy: 89.70%
+Current Pert: UAPs/uqat_single/x_noisetr10000_w4a4_16.npy
+clean accuracy: 90.34%
+Current Pert: UAPs/uqat_single/x_noisetr10000_w3a3_16.npy
+clean accuracy: 89.89%
+Current Pert: UAPs/uqat_single/x_noisetr10000_w3a2_16.npy
+clean accuracy: 90.59%
+Current Pert: UAPs/uqat_single/x_noisetr10000_w2a2_16.npy
+clean accuracy: 90.04%
+Current Pert: UAPs/uqat_single/x_noisetr10000_w1a2_16.npy
+clean accuracy: 90.43%
+Current Pert: UAPs/uqat_single/x_noisetr10000_w1a1_16.npy
+clean accuracy: 87.58%
+Current Pert: UAPs/uqat_multi/uap10000tr_16.npy
+clean accuracy: 90.08%
+Current Pert: UAPs/uqat_single/x_noisetst10000_w8a8_16.npy
+clean accuracy: 90.35%
+Current Pert: UAPs/uqat_single/x_noisetst10000_w4a4_16.npy
+clean accuracy: 90.31%
+Current Pert: UAPs/uqat_single/x_noisetst10000_w3a3_16.npy
+clean accuracy: 90.30%
+Current Pert: UAPs/uqat_single/x_noisetst10000_w3a2_16.npy
+clean accuracy: 90.22%
+Current Pert: UAPs/uqat_single/x_noisetst10000_w2a2_16.npy
+clean accuracy: 90.34%
+Current Pert: UAPs/uqat_single/x_noisetst10000_w1a2_16.npy
+clean accuracy: 89.10%
+Current Pert: UAPs/uqat_single/x_noisetst10000_w1a1_16.npy
+clean accuracy: 86.12%
+Current Pert: UAPs/uqat_multi/uap10000tst_16.npy
+clean accuracy: 89.48%
+Current Pert: UAPs/uqat_single/x_noisetr10000_w8a8_20.npy
+clean accuracy: 89.49%
+Current Pert: UAPs/uqat_single/x_noisetr10000_w4a4_20.npy
+clean accuracy: 89.33%
+Current Pert: UAPs/uqat_single/x_noisetr10000_w3a3_20.npy
+clean accuracy: 89.54%
+Current Pert: UAPs/uqat_single/x_noisetr10000_w3a2_20.npy
+clean accuracy: 90.01%
+Current Pert: UAPs/uqat_single/x_noisetr10000_w2a2_20.npy
+clean accuracy: 89.25%
+Current Pert: UAPs/uqat_single/x_noisetr10000_w1a2_20.npy
+clean accuracy: 88.55%
+Current Pert: UAPs/uqat_single/x_noisetr10000_w1a1_20.npy
+clean accuracy: 87.94%
+Current Pert: UAPs/uqat_multi/uap10000tr_20.npy
+clean accuracy: 86.86%
+Current Pert: UAPs/uqat_single/x_noisetst10000_w8a8_20.npy
+clean accuracy: 89.52%
+Current Pert: UAPs/uqat_single/x_noisetst10000_w4a4_20.npy
+clean accuracy: 89.89%
+Current Pert: UAPs/uqat_single/x_noisetst10000_w3a3_20.npy
+clean accuracy: 89.61%
+Current Pert: UAPs/uqat_single/x_noisetst10000_w3a2_20.npy
+clean accuracy: 88.75%
+Current Pert: UAPs/uqat_single/x_noisetst10000_w2a2_20.npy
+clean accuracy: 89.08%
+Current Pert: UAPs/uqat_single/x_noisetst10000_w1a2_20.npy
+clean accuracy: 87.39%
+Current Pert: UAPs/uqat_single/x_noisetst10000_w1a1_20.npy
+clean accuracy: 86.77%
+Current Pert: UAPs/uqat_multi/uap10000tst_20.npy
+clean accuracy: 88.36%
+Current Pert: UAPs/uqat_single/x_noisetr10000_w8a8_26.npy
+clean accuracy: 87.68%
+Current Pert: UAPs/uqat_single/x_noisetr10000_w4a4_26.npy
+clean accuracy: 87.20%
+Current Pert: UAPs/uqat_single/x_noisetr10000_w3a3_26.npy
+clean accuracy: 86.19%
+Current Pert: UAPs/uqat_single/x_noisetr10000_w3a2_26.npy
+clean accuracy: 87.77%
+Current Pert: UAPs/uqat_single/x_noisetr10000_w2a2_26.npy
+clean accuracy: 87.29%
+Current Pert: UAPs/uqat_single/x_noisetr10000_w1a2_26.npy
+clean accuracy: 85.14%
+Current Pert: UAPs/uqat_single/x_noisetr10000_w1a1_26.npy
+clean accuracy: 84.63%
+Current Pert: UAPs/uqat_multi/uap10000tr_26.npy
+clean accuracy: 82.01%
+Current Pert: UAPs/uqat_single/x_noisetst10000_w8a8_26.npy
+clean accuracy: 86.45%
+Current Pert: UAPs/uqat_single/x_noisetst10000_w4a4_26.npy
+clean accuracy: 88.65%
+Current Pert: UAPs/uqat_single/x_noisetst10000_w3a3_26.npy
+clean accuracy: 87.97%
+Current Pert: UAPs/uqat_single/x_noisetst10000_w3a2_26.npy
+clean accuracy: 87.97%
+Current Pert: UAPs/uqat_single/x_noisetst10000_w2a2_26.npy
+clean accuracy: 87.41%
+Current Pert: UAPs/uqat_single/x_noisetst10000_w1a2_26.npy
+clean accuracy: 84.40%
+Current Pert: UAPs/uqat_single/x_noisetst10000_w1a1_26.npy
+clean accuracy: 82.89%
+Current Pert: UAPs/uqat_multi/uap10000tst_26.npy
+clean accuracy: 79.86%
+Current Pert: UAPs/uqat_single/x_noisetr10000_w8a8_32.npy
+clean accuracy: 84.07%
+Current Pert: UAPs/uqat_single/x_noisetr10000_w4a4_32.npy
+clean accuracy: 83.77%
+Current Pert: UAPs/uqat_single/x_noisetr10000_w3a3_32.npy
+clean accuracy: 82.80%
+Current Pert: UAPs/uqat_single/x_noisetr10000_w3a2_32.npy
+clean accuracy: 85.29%
+Current Pert: UAPs/uqat_single/x_noisetr10000_w2a2_32.npy
+clean accuracy: 84.78%
+Current Pert: UAPs/uqat_single/x_noisetr10000_w1a2_32.npy
+clean accuracy: 78.28%
+Current Pert: UAPs/uqat_single/x_noisetr10000_w1a1_32.npy
+clean accuracy: 78.74%
+Current Pert: UAPs/uqat_multi/uap10000tr_32.npy
+clean accuracy: 72.33%
+Current Pert: UAPs/uqat_single/x_noisetst10000_w8a8_32.npy
+clean accuracy: 84.73%
+Current Pert: UAPs/uqat_single/x_noisetst10000_w4a4_32.npy
+clean accuracy: 84.16%
+Current Pert: UAPs/uqat_single/x_noisetst10000_w3a3_32.npy
+clean accuracy: 84.12%
+Current Pert: UAPs/uqat_single/x_noisetst10000_w3a2_32.npy
+clean accuracy: 85.86%
+Current Pert: UAPs/uqat_single/x_noisetst10000_w2a2_32.npy
+clean accuracy: 83.85%
+Current Pert: UAPs/uqat_single/x_noisetst10000_w1a2_32.npy
+clean accuracy: 80.30%
+Current Pert: UAPs/uqat_single/x_noisetst10000_w1a1_32.npy
+clean accuracy: 81.44%
+Current Pert: UAPs/uqat_multi/uap10000tst_32.npy
+clean accuracy: 74.09%
+clean accuracy: 87.90%
+Acc without attack: 0.879
+Eval Natural Res20 SVHN Model.
+clean accuracy: 94.19%
+Natual Model Acc without attack: 0.9419
+Current Pert: UAPs/uqat_single/x_noisetr10000_w8a8_4.npy
+clean accuracy: 94.15%
+Current Pert: UAPs/uqat_single/x_noisetr10000_w4a4_4.npy
+clean accuracy: 94.17%
+Current Pert: UAPs/uqat_single/x_noisetr10000_w3a3_4.npy
+clean accuracy: 94.06%
+Current Pert: UAPs/uqat_single/x_noisetr10000_w3a2_4.npy
+clean accuracy: 94.17%
+Current Pert: UAPs/uqat_single/x_noisetr10000_w2a2_4.npy
+clean accuracy: 93.97%
+Current Pert: UAPs/uqat_multi/uap10000tr_4.npy
+clean accuracy: 94.18%
+Current Pert: UAPs/uqat_single/x_noisetst10000_w8a8_4.npy
+clean accuracy: 94.28%
+Current Pert: UAPs/uqat_single/x_noisetst10000_w4a4_4.npy
+clean accuracy: 94.14%
+Current Pert: UAPs/uqat_single/x_noisetst10000_w3a3_4.npy
+clean accuracy: 94.11%
+Current Pert: UAPs/uqat_single/x_noisetst10000_w3a2_4.npy
+clean accuracy: 94.01%
+Current Pert: UAPs/uqat_single/x_noisetst10000_w2a2_4.npy
+clean accuracy: 94.01%
+Current Pert: UAPs/uqat_multi/uap10000tst_4.npy
+clean accuracy: 94.23%
+Current Pert: UAPs/uqat_single/x_noisetr10000_w8a8_8.npy
+clean accuracy: 93.76%
+Current Pert: UAPs/uqat_single/x_noisetr10000_w4a4_8.npy
+clean accuracy: 94.17%
+Current Pert: UAPs/uqat_single/x_noisetr10000_w3a3_8.npy
+clean accuracy: 94.07%
+Current Pert: UAPs/uqat_single/x_noisetr10000_w3a2_8.npy
+clean accuracy: 93.81%
+Current Pert: UAPs/uqat_single/x_noisetr10000_w2a2_8.npy
+clean accuracy: 93.87%
+Current Pert: UAPs/uqat_multi/uap10000tr_8.npy
+clean accuracy: 93.47%
+Current Pert: UAPs/uqat_single/x_noisetst10000_w8a8_8.npy
+clean accuracy: 93.74%
+Current Pert: UAPs/uqat_single/x_noisetst10000_w4a4_8.npy
+clean accuracy: 93.87%
+Current Pert: UAPs/uqat_single/x_noisetst10000_w3a3_8.npy
+clean accuracy: 93.90%
+Current Pert: UAPs/uqat_single/x_noisetst10000_w3a2_8.npy
+clean accuracy: 94.02%
+Current Pert: UAPs/uqat_single/x_noisetst10000_w2a2_8.npy
+clean accuracy: 94.01%
+Current Pert: UAPs/uqat_multi/uap10000tst_8.npy
+clean accuracy: 93.62%
+Current Pert: UAPs/uqat_single/x_noisetr10000_w8a8_12.npy
+clean accuracy: 93.68%
+Current Pert: UAPs/uqat_single/x_noisetr10000_w4a4_12.npy
+clean accuracy: 93.53%
+Current Pert: UAPs/uqat_single/x_noisetr10000_w3a3_12.npy
+clean accuracy: 93.72%
+Current Pert: UAPs/uqat_single/x_noisetr10000_w3a2_12.npy
+clean accuracy: 93.74%
+Current Pert: UAPs/uqat_single/x_noisetr10000_w2a2_12.npy
+clean accuracy: 93.41%
+Current Pert: UAPs/uqat_multi/uap10000tr_12.npy
+clean accuracy: 93.04%
+Current Pert: UAPs/uqat_single/x_noisetst10000_w8a8_12.npy
+clean accuracy: 93.36%
+Current Pert: UAPs/uqat_single/x_noisetst10000_w4a4_12.npy
+clean accuracy: 93.75%
+Current Pert: UAPs/uqat_single/x_noisetst10000_w3a3_12.npy
+clean accuracy: 93.41%
+Current Pert: UAPs/uqat_single/x_noisetst10000_w3a2_12.npy
+clean accuracy: 93.51%
+Current Pert: UAPs/uqat_single/x_noisetst10000_w2a2_12.npy
+clean accuracy: 93.31%
+Current Pert: UAPs/uqat_multi/uap10000tst_12.npy
+clean accuracy: 92.72%
+Current Pert: UAPs/uqat_single/x_noisetr10000_w8a8_16.npy
+clean accuracy: 93.26%
+Current Pert: UAPs/uqat_single/x_noisetr10000_w4a4_16.npy
+clean accuracy: 93.13%
+Current Pert: UAPs/uqat_single/x_noisetr10000_w3a3_16.npy
+clean accuracy: 92.99%
+Current Pert: UAPs/uqat_single/x_noisetr10000_w3a2_16.npy
+clean accuracy: 92.94%
+Current Pert: UAPs/uqat_single/x_noisetr10000_w2a2_16.npy
+clean accuracy: 92.66%
+Current Pert: UAPs/uqat_multi/uap10000tr_16.npy
+clean accuracy: 91.97%
+Current Pert: UAPs/uqat_single/x_noisetst10000_w8a8_16.npy
+clean accuracy: 92.83%
+Current Pert: UAPs/uqat_single/x_noisetst10000_w4a4_16.npy
+clean accuracy: 93.24%
+Current Pert: UAPs/uqat_single/x_noisetst10000_w3a3_16.npy
+clean accuracy: 92.92%
+Current Pert: UAPs/uqat_single/x_noisetst10000_w3a2_16.npy
+clean accuracy: 92.52%
+Current Pert: UAPs/uqat_single/x_noisetst10000_w2a2_16.npy
+clean accuracy: 92.96%
+Current Pert: UAPs/uqat_multi/uap10000tst_16.npy
+clean accuracy: 92.14%
+Current Pert: UAPs/uqat_single/x_noisetr10000_w8a8_20.npy
+clean accuracy: 92.70%
+Current Pert: UAPs/uqat_single/x_noisetr10000_w4a4_20.npy
+clean accuracy: 90.70%
+Current Pert: UAPs/uqat_single/x_noisetr10000_w3a3_20.npy
+clean accuracy: 92.51%
+Current Pert: UAPs/uqat_single/x_noisetr10000_w3a2_20.npy
+clean accuracy: 92.40%
+Current Pert: UAPs/uqat_single/x_noisetr10000_w2a2_20.npy
+clean accuracy: 92.85%
+Current Pert: UAPs/uqat_multi/uap10000tr_20.npy
+clean accuracy: 87.89%
+Current Pert: UAPs/uqat_single/x_noisetst10000_w8a8_20.npy
+clean accuracy: 91.36%
+Current Pert: UAPs/uqat_single/x_noisetst10000_w4a4_20.npy
+clean accuracy: 92.48%
+Current Pert: UAPs/uqat_single/x_noisetst10000_w3a3_20.npy
+clean accuracy: 92.47%
+Current Pert: UAPs/uqat_single/x_noisetst10000_w3a2_20.npy
+clean accuracy: 90.72%
+Current Pert: UAPs/uqat_single/x_noisetst10000_w2a2_20.npy
+clean accuracy: 92.57%
+Current Pert: UAPs/uqat_multi/uap10000tst_20.npy
+clean accuracy: 88.86%
+Current Pert: UAPs/uqat_single/x_noisetr10000_w8a8_26.npy
+clean accuracy: 89.79%
+Current Pert: UAPs/uqat_single/x_noisetr10000_w4a4_26.npy
+clean accuracy: 90.30%
+Current Pert: UAPs/uqat_single/x_noisetr10000_w3a3_26.npy
+clean accuracy: 89.60%
+Current Pert: UAPs/uqat_single/x_noisetr10000_w3a2_26.npy
+clean accuracy: 88.98%
+Current Pert: UAPs/uqat_single/x_noisetr10000_w2a2_26.npy
+clean accuracy: 89.94%
+Current Pert: UAPs/uqat_multi/uap10000tr_26.npy
+clean accuracy: 82.80%
+Current Pert: UAPs/uqat_single/x_noisetst10000_w8a8_26.npy
+clean accuracy: 90.20%
+Current Pert: UAPs/uqat_single/x_noisetst10000_w4a4_26.npy
+clean accuracy: 91.76%
+Current Pert: UAPs/uqat_single/x_noisetst10000_w3a3_26.npy
+clean accuracy: 90.60%
+Current Pert: UAPs/uqat_single/x_noisetst10000_w3a2_26.npy
+clean accuracy: 90.70%
+Current Pert: UAPs/uqat_single/x_noisetst10000_w2a2_26.npy
+clean accuracy: 86.90%
+Current Pert: UAPs/uqat_multi/uap10000tst_26.npy
+clean accuracy: 84.37%
+Current Pert: UAPs/uqat_single/x_noisetr10000_w8a8_32.npy
+clean accuracy: 86.83%
+Current Pert: UAPs/uqat_single/x_noisetr10000_w4a4_32.npy
+clean accuracy: 89.31%
+Current Pert: UAPs/uqat_single/x_noisetr10000_w3a3_32.npy
+clean accuracy: 83.02%
+Current Pert: UAPs/uqat_single/x_noisetr10000_w3a2_32.npy
+clean accuracy: 86.81%
+Current Pert: UAPs/uqat_single/x_noisetr10000_w2a2_32.npy
+clean accuracy: 86.21%
+Current Pert: UAPs/uqat_multi/uap10000tr_32.npy
+clean accuracy: 69.07%
+Current Pert: UAPs/uqat_single/x_noisetst10000_w8a8_32.npy
+clean accuracy: 87.26%
+Current Pert: UAPs/uqat_single/x_noisetst10000_w4a4_32.npy
+clean accuracy: 88.49%
+Current Pert: UAPs/uqat_single/x_noisetst10000_w3a3_32.npy
+clean accuracy: 86.35%
+Current Pert: UAPs/uqat_single/x_noisetst10000_w3a2_32.npy
+clean accuracy: 88.83%
+Current Pert: UAPs/uqat_single/x_noisetst10000_w2a2_32.npy
+clean accuracy: 87.37%
+Current Pert: UAPs/uqat_multi/uap10000tst_32.npy
+clean accuracy: 71.72%
+Current Pert: UAPs/uqat_single/x_noisetr10000_w8a8_4.npy
+clean accuracy: 94.15%
+Current Pert: UAPs/uqat_single/x_noisetr10000_w4a4_4.npy
+clean accuracy: 94.17%
+Current Pert: UAPs/uqat_single/x_noisetr10000_w3a3_4.npy
+clean accuracy: 94.06%
+Current Pert: UAPs/uqat_single/x_noisetr10000_w3a2_4.npy
+clean accuracy: 94.17%
+Current Pert: UAPs/uqat_single/x_noisetr10000_w2a2_4.npy
+clean accuracy: 93.97%
+Current Pert: UAPs/uqat_single/x_noisetr10000_w1a2_4.npy
+clean accuracy: 94.02%
+Current Pert: UAPs/uqat_single/x_noisetr10000_w1a1_4.npy
+clean accuracy: 94.13%
+Current Pert: UAPs/uqat_multi/uap10000tr_4.npy
+clean accuracy: 94.18%
+Current Pert: UAPs/uqat_single/x_noisetst10000_w8a8_4.npy
+clean accuracy: 94.28%
+Current Pert: UAPs/uqat_single/x_noisetst10000_w4a4_4.npy
+clean accuracy: 94.14%
+Current Pert: UAPs/uqat_single/x_noisetst10000_w3a3_4.npy
+clean accuracy: 94.11%
+Current Pert: UAPs/uqat_single/x_noisetst10000_w3a2_4.npy
+clean accuracy: 94.01%
+Current Pert: UAPs/uqat_single/x_noisetst10000_w2a2_4.npy
+clean accuracy: 94.01%
+Current Pert: UAPs/uqat_single/x_noisetst10000_w1a2_4.npy
+clean accuracy: 94.07%
+Current Pert: UAPs/uqat_single/x_noisetst10000_w1a1_4.npy
+clean accuracy: 94.01%
+Current Pert: UAPs/uqat_multi/uap10000tst_4.npy
+clean accuracy: 94.23%
+Current Pert: UAPs/uqat_single/x_noisetr10000_w8a8_8.npy
+clean accuracy: 93.76%
+Current Pert: UAPs/uqat_single/x_noisetr10000_w4a4_8.npy
+clean accuracy: 94.17%
+Current Pert: UAPs/uqat_single/x_noisetr10000_w3a3_8.npy
+clean accuracy: 94.07%
+Current Pert: UAPs/uqat_single/x_noisetr10000_w3a2_8.npy
+clean accuracy: 93.81%
+Current Pert: UAPs/uqat_single/x_noisetr10000_w2a2_8.npy
+clean accuracy: 93.87%
+Current Pert: UAPs/uqat_single/x_noisetr10000_w1a2_8.npy
+clean accuracy: 93.82%
+Current Pert: UAPs/uqat_single/x_noisetr10000_w1a1_8.npy
+clean accuracy: 94.00%
+Current Pert: UAPs/uqat_multi/uap10000tr_8.npy
+clean accuracy: 93.47%
+Current Pert: UAPs/uqat_single/x_noisetst10000_w8a8_8.npy
+clean accuracy: 93.74%
+Current Pert: UAPs/uqat_single/x_noisetst10000_w4a4_8.npy
+clean accuracy: 93.87%
+Current Pert: UAPs/uqat_single/x_noisetst10000_w3a3_8.npy
+clean accuracy: 93.90%
+Current Pert: UAPs/uqat_single/x_noisetst10000_w3a2_8.npy
+clean accuracy: 94.02%
+Current Pert: UAPs/uqat_single/x_noisetst10000_w2a2_8.npy
+clean accuracy: 94.01%
+Current Pert: UAPs/uqat_single/x_noisetst10000_w1a2_8.npy
+clean accuracy: 93.89%
+Current Pert: UAPs/uqat_single/x_noisetst10000_w1a1_8.npy
+clean accuracy: 94.07%
+Current Pert: UAPs/uqat_multi/uap10000tst_8.npy
+clean accuracy: 93.62%
+Current Pert: UAPs/uqat_single/x_noisetr10000_w8a8_12.npy
+clean accuracy: 93.68%
+Current Pert: UAPs/uqat_single/x_noisetr10000_w4a4_12.npy
+clean accuracy: 93.53%
+Current Pert: UAPs/uqat_single/x_noisetr10000_w3a3_12.npy
+clean accuracy: 93.72%
+Current Pert: UAPs/uqat_single/x_noisetr10000_w3a2_12.npy
+clean accuracy: 93.74%
+Current Pert: UAPs/uqat_single/x_noisetr10000_w2a2_12.npy
+clean accuracy: 93.41%
+Current Pert: UAPs/uqat_single/x_noisetr10000_w1a2_12.npy
+clean accuracy: 93.60%
+Current Pert: UAPs/uqat_single/x_noisetr10000_w1a1_12.npy
+clean accuracy: 93.73%
+Current Pert: UAPs/uqat_multi/uap10000tr_12.npy
+clean accuracy: 93.04%
+Current Pert: UAPs/uqat_single/x_noisetst10000_w8a8_12.npy
+clean accuracy: 93.36%
+Current Pert: UAPs/uqat_single/x_noisetst10000_w4a4_12.npy
+clean accuracy: 93.75%
+Current Pert: UAPs/uqat_single/x_noisetst10000_w3a3_12.npy
+clean accuracy: 93.41%
+Current Pert: UAPs/uqat_single/x_noisetst10000_w3a2_12.npy
+clean accuracy: 93.51%
+Current Pert: UAPs/uqat_single/x_noisetst10000_w2a2_12.npy
+clean accuracy: 93.31%
+Current Pert: UAPs/uqat_single/x_noisetst10000_w1a2_12.npy
+clean accuracy: 93.56%
+Current Pert: UAPs/uqat_single/x_noisetst10000_w1a1_12.npy
+clean accuracy: 93.46%
+Current Pert: UAPs/uqat_multi/uap10000tst_12.npy
+clean accuracy: 92.72%
+Current Pert: UAPs/uqat_single/x_noisetr10000_w8a8_16.npy
+clean accuracy: 93.26%
+Current Pert: UAPs/uqat_single/x_noisetr10000_w4a4_16.npy
+clean accuracy: 93.13%
+Current Pert: UAPs/uqat_single/x_noisetr10000_w3a3_16.npy
+clean accuracy: 92.99%
+Current Pert: UAPs/uqat_single/x_noisetr10000_w3a2_16.npy
+clean accuracy: 92.94%
+Current Pert: UAPs/uqat_single/x_noisetr10000_w2a2_16.npy
+clean accuracy: 92.66%
+Current Pert: UAPs/uqat_single/x_noisetr10000_w1a2_16.npy
+clean accuracy: 93.02%
+Current Pert: UAPs/uqat_single/x_noisetr10000_w1a1_16.npy
+clean accuracy: 92.96%
+Current Pert: UAPs/uqat_multi/uap10000tr_16.npy
+clean accuracy: 91.97%
+Current Pert: UAPs/uqat_single/x_noisetst10000_w8a8_16.npy
+clean accuracy: 92.83%
+Current Pert: UAPs/uqat_single/x_noisetst10000_w4a4_16.npy
+clean accuracy: 93.24%
+Current Pert: UAPs/uqat_single/x_noisetst10000_w3a3_16.npy
+clean accuracy: 92.92%
+Current Pert: UAPs/uqat_single/x_noisetst10000_w3a2_16.npy
+clean accuracy: 92.52%
+Current Pert: UAPs/uqat_single/x_noisetst10000_w2a2_16.npy
+clean accuracy: 92.96%
+Current Pert: UAPs/uqat_single/x_noisetst10000_w1a2_16.npy
+clean accuracy: 92.50%
+Current Pert: UAPs/uqat_single/x_noisetst10000_w1a1_16.npy
+clean accuracy: 92.88%
+Current Pert: UAPs/uqat_multi/uap10000tst_16.npy
+clean accuracy: 92.14%
+Current Pert: UAPs/uqat_single/x_noisetr10000_w8a8_20.npy
+clean accuracy: 92.70%
+Current Pert: UAPs/uqat_single/x_noisetr10000_w4a4_20.npy
+clean accuracy: 90.70%
+Current Pert: UAPs/uqat_single/x_noisetr10000_w3a3_20.npy
+clean accuracy: 92.51%
+Current Pert: UAPs/uqat_single/x_noisetr10000_w3a2_20.npy
+clean accuracy: 92.40%
+Current Pert: UAPs/uqat_single/x_noisetr10000_w2a2_20.npy
+clean accuracy: 92.85%
+Current Pert: UAPs/uqat_single/x_noisetr10000_w1a2_20.npy
+clean accuracy: 91.63%
+Current Pert: UAPs/uqat_single/x_noisetr10000_w1a1_20.npy
+clean accuracy: 91.65%
+Current Pert: UAPs/uqat_multi/uap10000tr_20.npy
+clean accuracy: 87.89%
+Current Pert: UAPs/uqat_single/x_noisetst10000_w8a8_20.npy
+clean accuracy: 91.36%
+Current Pert: UAPs/uqat_single/x_noisetst10000_w4a4_20.npy
+clean accuracy: 92.48%
+Current Pert: UAPs/uqat_single/x_noisetst10000_w3a3_20.npy
+clean accuracy: 92.47%
+Current Pert: UAPs/uqat_single/x_noisetst10000_w3a2_20.npy
+clean accuracy: 90.72%
+Current Pert: UAPs/uqat_single/x_noisetst10000_w2a2_20.npy
+clean accuracy: 92.57%
+Current Pert: UAPs/uqat_single/x_noisetst10000_w1a2_20.npy
+clean accuracy: 91.11%
+Current Pert: UAPs/uqat_single/x_noisetst10000_w1a1_20.npy
+clean accuracy: 89.65%
+Current Pert: UAPs/uqat_multi/uap10000tst_20.npy
+clean accuracy: 88.86%
+Current Pert: UAPs/uqat_single/x_noisetr10000_w8a8_26.npy
+clean accuracy: 89.79%
+Current Pert: UAPs/uqat_single/x_noisetr10000_w4a4_26.npy
+clean accuracy: 90.30%
+Current Pert: UAPs/uqat_single/x_noisetr10000_w3a3_26.npy
+clean accuracy: 89.60%
+Current Pert: UAPs/uqat_single/x_noisetr10000_w3a2_26.npy
+clean accuracy: 88.98%
+Current Pert: UAPs/uqat_single/x_noisetr10000_w2a2_26.npy
+clean accuracy: 89.94%
+Current Pert: UAPs/uqat_single/x_noisetr10000_w1a2_26.npy
+clean accuracy: 88.64%
+Current Pert: UAPs/uqat_single/x_noisetr10000_w1a1_26.npy
+clean accuracy: 88.80%
+Current Pert: UAPs/uqat_multi/uap10000tr_26.npy
+clean accuracy: 82.80%
+Current Pert: UAPs/uqat_single/x_noisetst10000_w8a8_26.npy
+clean accuracy: 90.20%
+Current Pert: UAPs/uqat_single/x_noisetst10000_w4a4_26.npy
+clean accuracy: 91.76%
+Current Pert: UAPs/uqat_single/x_noisetst10000_w3a3_26.npy
+clean accuracy: 90.60%
+Current Pert: UAPs/uqat_single/x_noisetst10000_w3a2_26.npy
+clean accuracy: 90.70%
+Current Pert: UAPs/uqat_single/x_noisetst10000_w2a2_26.npy
+clean accuracy: 86.90%
+Current Pert: UAPs/uqat_single/x_noisetst10000_w1a2_26.npy
+clean accuracy: 90.35%
+Current Pert: UAPs/uqat_single/x_noisetst10000_w1a1_26.npy
+clean accuracy: 87.66%
+Current Pert: UAPs/uqat_multi/uap10000tst_26.npy
+clean accuracy: 84.37%
+Current Pert: UAPs/uqat_single/x_noisetr10000_w8a8_32.npy
+clean accuracy: 86.83%
+Current Pert: UAPs/uqat_single/x_noisetr10000_w4a4_32.npy
+clean accuracy: 89.31%
+Current Pert: UAPs/uqat_single/x_noisetr10000_w3a3_32.npy
+clean accuracy: 83.02%
+Current Pert: UAPs/uqat_single/x_noisetr10000_w3a2_32.npy
+clean accuracy: 86.81%
+Current Pert: UAPs/uqat_single/x_noisetr10000_w2a2_32.npy
+clean accuracy: 86.21%
+Current Pert: UAPs/uqat_single/x_noisetr10000_w1a2_32.npy
+clean accuracy: 86.01%
+Current Pert: UAPs/uqat_single/x_noisetr10000_w1a1_32.npy
+clean accuracy: 86.17%
+Current Pert: UAPs/uqat_multi/uap10000tr_32.npy
+clean accuracy: 69.07%
+Current Pert: UAPs/uqat_single/x_noisetst10000_w8a8_32.npy
+clean accuracy: 87.26%
+Current Pert: UAPs/uqat_single/x_noisetst10000_w4a4_32.npy
+clean accuracy: 88.49%
+Current Pert: UAPs/uqat_single/x_noisetst10000_w3a3_32.npy
+clean accuracy: 86.35%
+Current Pert: UAPs/uqat_single/x_noisetst10000_w3a2_32.npy
+clean accuracy: 88.83%
+Current Pert: UAPs/uqat_single/x_noisetst10000_w2a2_32.npy
+clean accuracy: 87.37%
+Current Pert: UAPs/uqat_single/x_noisetst10000_w1a2_32.npy
+clean accuracy: 86.61%
+Current Pert: UAPs/uqat_single/x_noisetst10000_w1a1_32.npy
+clean accuracy: 87.55%
+Current Pert: UAPs/uqat_multi/uap10000tst_32.npy
+clean accuracy: 71.72%
+using custom version including apgd-ce, apgd-dlr
+initial accuracy: 92.95%
+apgd-ce - 1/15 - 128 out of 128 successfully perturbed
+apgd-ce - 2/15 - 128 out of 128 successfully perturbed
+apgd-ce - 3/15 - 128 out of 128 successfully perturbed
+apgd-ce - 4/15 - 128 out of 128 successfully perturbed
+apgd-ce - 5/15 - 128 out of 128 successfully perturbed
+apgd-ce - 6/15 - 128 out of 128 successfully perturbed
+apgd-ce - 7/15 - 128 out of 128 successfully perturbed
+apgd-ce - 8/15 - 128 out of 128 successfully perturbed
+apgd-ce - 9/15 - 128 out of 128 successfully perturbed
+apgd-ce - 10/15 - 128 out of 128 successfully perturbed
+apgd-ce - 11/15 - 128 out of 128 successfully perturbed
+apgd-ce - 12/15 - 128 out of 128 successfully perturbed
+apgd-ce - 13/15 - 128 out of 128 successfully perturbed
+apgd-ce - 14/15 - 128 out of 128 successfully perturbed
+apgd-ce - 15/15 - 67 out of 67 successfully perturbed
+robust accuracy after APGD-CE: 0.00% (total time 27.6 s)
+max Linf perturbation: 0.03137, nan in tensor: 0, max: 1.00000, min: 0.00000
+robust accuracy: 0.00%
+
+
+
+Figures now render in the Plots pane by default. To make them also appear inline in the Console, uncheck "Mute Inline Plotting" under the Plots pane options menu. 
